@@ -231,11 +231,13 @@ img:hover {
   }
   
   .logos {
+    width: 500px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     width: 80%;
   }
+
   
   .logo {
     display: flex;
@@ -246,8 +248,8 @@ img:hover {
   
   .logo img {
     
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
     margin-bottom: 10px;
     transition: transform 0.4s ease, box-shadow 0.4s ease; /* Smooth transition for transform and shadow */
     cursor: pointer; /* Change cursor to pointer on hover */
